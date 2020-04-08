@@ -5,7 +5,7 @@ Criação de um container para rodar o ansible sem precisar instalá-lo na máqu
 ## Clone do projeto
 
 ```bash
-$ git clone git@github.com:gabrielferreira/ansible-docker-image.git
+$ git clone git@github.com:reivson/ansible-docker-image.git
 $ cd ansible-docker-image
 ```
 
