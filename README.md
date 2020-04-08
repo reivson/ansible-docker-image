@@ -21,6 +21,3 @@ $ docker build -t reivson/nome-imagem .
 $ docker run -dti --name ansible-server --hostname ansible-server -v $PWD:/opt/projeto reivson/nome-imagem /bin/bash
 $ docker attach ansible-server
 ```
-
-## License
-[MIT](https://choosealicense.com/licenses/mit/)
