@@ -25,8 +25,8 @@ $ docker attach ansible
 
 ```bash 
 /# cd /root/.ssh
-/# ssh-copy-id user@hosts
+/# ssh-copy-id user@host
 /# ssh-agent sh
 /# ssh-add id_rsa
-/# ssh user@hosts
+/# ssh user@host
 ```
