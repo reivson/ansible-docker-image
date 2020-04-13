@@ -18,6 +18,15 @@ $ docker build -t reivson/nome-imagem .
 ## Uso
 
 ```bash
-$ docker run -dti --name ansible-server --hostname ansible-server -v $PWD:/opt/projeto reivson/nome-imagem /bin/bash
-$ docker attach ansible-server
+$ docker container run -dti --name ansible --hostname ansible -v $PWD:/opt/ansible reivson/ansible-alpine /bin/sh
+$ docker attach ansible
+```
+## Configuração das chaves SSH
+
+```bash 
+/# cd /root/.ssh
+/# ssh-copy-id user@hosts
+/# ssh-agent sh
+/# ssh-add id_rsa
+/# ssh user@hosts
 ```
