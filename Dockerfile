@@ -17,3 +17,5 @@ RUN mkdir -p /opt/ansible && \
     cp $KEY_PATH/id_rsa.pub /root/.ssh/id_rsa.pub && \
     cp $KEY_PATH/id_rsa.pub /root/.ssh/authorized_keys && \
     chmod 400 /root/.ssh/id_rsa*
+
+WORKDIR /opt/ansible
